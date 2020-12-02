@@ -17,6 +17,9 @@
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
+CREATE DATABASE futgol;
+USE futgol;
+
 CREATE USER 'usuario'@'%' identified by 'Usuario_2019';
 GRANT all on futgol.* to 'usuario'@'%';
 -- ----------------------------
